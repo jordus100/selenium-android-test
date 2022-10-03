@@ -1,17 +1,18 @@
 <suite name="ParallelTest" parallel="tests" thread-count="3">
-    <!--<test name="Local device">
+    <test name="Local device">
         <classes>
             <class name="SeleniumAndroidBrowserExampleTest"/>
         </classes>
         <parameter name="deviceID" value="ZY227MRS44"/>
-    </test>-->
-    <test name="Smartdust device">
+        <parameter name="browser" value="firefox"/>
+    </test>
+    <!--<test name="Smartdust device">
         <classes>
             <class name="SeleniumAndroidBrowserExampleTest"/>
         </classes>
-        <parameter name="deviceID" value="public.smartdust.me:13394"/>
-        <parameter name="browser" value="chrome"/>
-    </test>
+        <parameter name="deviceID" value="public.smartdust.me:14076"/>
+        <parameter name="browser" value="samsung"/>
+    </test>-->
     <!--<test name="Smartdust device #2">
         <classes>
             <class name="SeleniumAndroidBrowserExampleTest"/>
