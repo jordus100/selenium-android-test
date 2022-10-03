@@ -10,6 +10,7 @@
             <class name="SeleniumAndroidBrowserExampleTest"/>
         </classes>
         <parameter name="deviceID" value="public.smartdust.me:13394"/>
+        <parameter name="browser" value="chrome"/>
     </test>
     <!--<test name="Smartdust device #2">
         <classes>
