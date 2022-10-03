@@ -1,20 +1,20 @@
 <suite name="ParallelTest" parallel="tests" thread-count="3">
-    <test name="Local device">
+    <!--<test name="Local device">
         <classes>
             <class name="SeleniumAndroidBrowserExampleTest"/>
         </classes>
         <parameter name="deviceID" value="ZY227MRS44"/>
-    </test>
+    </test>-->
     <test name="Smartdust device">
         <classes>
             <class name="SeleniumAndroidBrowserExampleTest"/>
         </classes>
-        <parameter name="deviceID" value="public.smartdust.me:13417"/>
+        <parameter name="deviceID" value="public.smartdust.me:13394"/>
     </test>
-    <test name="Smartdust device #2">
+    <!--<test name="Smartdust device #2">
         <classes>
             <class name="SeleniumAndroidBrowserExampleTest"/>
         </classes>
         <parameter name="deviceID" value="public.smartdust.me:12786"/>
-    </test>
+    </test>-->
 </suite>
