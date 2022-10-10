@@ -3,8 +3,8 @@
         <classes>
             <class name="SeleniumAndroidBrowserExampleTest"/>
         </classes>
-        <parameter name="deviceID" value="ZY227MRS44"/>
-        <parameter name="browser" value="firefox"/>
+        <parameter name="deviceID" value="R58N62SAVHY"/>
+        <parameter name="browser" value="opera"/>
     </test>
     <!--<test name="Smartdust device">
         <classes>
@@ -17,6 +17,7 @@
         <classes>
             <class name="SeleniumAndroidBrowserExampleTest"/>
         </classes>
-        <parameter name="deviceID" value="public.smartdust.me:12786"/>
+        <parameter name="deviceID" value="public.smartdust.me:13718"/>
+        <parameter name="browser" value="huawei"/>
     </test>-->
 </suite>
