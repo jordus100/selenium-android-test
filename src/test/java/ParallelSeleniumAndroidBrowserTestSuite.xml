@@ -6,17 +6,17 @@
         <parameter name="deviceID" value="ZY227MRS44"/>
         <parameter name="browser" value="firefox"/>
     </test>
-    <!--<test name="Smartdust device">
+    <test name="Smartdust device">
         <classes>
             <class name="SeleniumAndroidBrowserExampleTest"/>
         </classes>
         <parameter name="deviceID" value="public.smartdust.me:14076"/>
         <parameter name="browser" value="samsung"/>
-    </test>-->
-    <!--<test name="Smartdust device #2">
+    </test>
+    <test name="Smartdust device #2">
         <classes>
             <class name="SeleniumAndroidBrowserExampleTest"/>
         </classes>
         <parameter name="deviceID" value="public.smartdust.me:12786"/>
-    </test>-->
+    </test>
 </suite>
