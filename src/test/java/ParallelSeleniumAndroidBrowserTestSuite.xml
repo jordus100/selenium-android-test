@@ -6,18 +6,18 @@
         <parameter name="deviceID" value="R58N62SAVHY"/>
         <parameter name="browser" value="opera"/>
     </test>
-    <!--<test name="Smartdust device">
+    <test name="Smartdust device">
         <classes>
             <class name="SeleniumAndroidBrowserExampleTest"/>
         </classes>
         <parameter name="deviceID" value="public.smartdust.me:14076"/>
         <parameter name="browser" value="samsung"/>
-    </test>-->
-    <!--<test name="Smartdust device #2">
+    </test>
+    <test name="Smartdust device #2">
         <classes>
             <class name="SeleniumAndroidBrowserExampleTest"/>
         </classes>
         <parameter name="deviceID" value="public.smartdust.me:13718"/>
         <parameter name="browser" value="huawei"/>
-    </test>-->
+    </test>
 </suite>
